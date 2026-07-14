@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Device Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="sidebar">
+<h2>📱 Dashboard</h2>
+
+<a href="#">Home</a>
+<a href="#">Device</a>
+<a href="#">Location</a>
+<a href="#">Battery</a>
+<a href="#">Logs</a>
+<a href="#">Settings</a>
+
+</div>
+
+<div class="content">
+
+<div class="card">
+<h3>Status Device</h3>
+
+<p>Nama :
+<span id="device">Loading...</span></p>
+
+<p>Baterai :
+<span id="battery">--%</span></p>
+
+<p>Storage :
+<span id="storage">--</span></p>
+
+<p>Jaringan :
+<span id="network">--</span></p>
+
+<p>Lokasi :
+<span id="location">--</span></p>
+
+</div>
+
+<div class="card">
+
+<h3>Riwayat</h3>
+
+<ul id="logs">
+<li>Menunggu data...</li>
+</ul>
+
+</div>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
